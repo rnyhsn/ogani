@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const CategorySection = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
   return (
     <div className="relative">
       <div className="flex items-center gap-5 bg-primary text-white py-2.5 px-7 font-extrabold cursor-pointer" onClick={()=> setOpen(prev => !prev)}>
